@@ -1,5 +1,5 @@
 class HelloWorld:
-    def hello(self): # reminder: always add self parameter when you make classes 
+    def hello(self): # method, reminder: always add self parameter when you make method
         return "hello world"
    
 class main:
