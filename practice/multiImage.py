@@ -18,5 +18,7 @@ draw.text((200,100), "Multi Image in canvas", fill="white", font=font)
 
 canvas.show()
 
+#to save with other format
+canvas.save("out/mulitImage.pdf", format="PDF")
 
 #text size comes from the ImageFont
