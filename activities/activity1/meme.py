@@ -100,7 +100,7 @@ mainCanvas.paste(resizedSadImg3, (735, 639), resizedSadImg3)
 mainCanvas.paste(resizedSadImg4, (636, 1068), resizedSadImg4)
 mainCanvas.paste(resizedSadImg1, (243, 836), resizedSadImg1)
 
-# add text here in bottom of the code, coz the first you put will put in the back - i think hahaha
+# add text here in bottom of the code, coz the first you code will put in the back of the image - i think hahaha
 draw.text((30,21), ccjText, fill="black", font=font_path)
 draw.text((30,742), ccisCtasText, fill="black", font=font_path)
 
