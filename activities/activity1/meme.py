@@ -92,6 +92,10 @@ resizedSadImg2 = sadImg2.resize((533, 711))
 resizedSadImg3 = sadImg3.resize((372, 711))
 resizedSadImg4 = sadImg4.resize((570, 565))
 
+# add line to seperate the both sides 
+y = 720
+draw.line([(0, y), (1080, y)], fill="black", width=2)
+
 # now we will paste the images from ctas and ccis side where they are sad hahahha
 mainCanvas.paste(resizedSadImg2, (0, 639), resizedSadImg2)
 mainCanvas.paste(resizedSadImg3, (735, 639), resizedSadImg3)
