@@ -11,4 +11,4 @@ The concept combines humor with school pride, making it relatable to students wh
 
 ----
 
-**PEACE \/**
+**PEACE \\/**
