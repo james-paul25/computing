@@ -39,7 +39,7 @@ mainCanvas.paste(bgCanvas, (0,0), bgCanvas)
 draw = ImageDraw.Draw(mainCanvas)
 
 # i add text here so i will just call them when added the text using Draw
-ccjText = "During Intrams \nCCJ be like: "
+ccjText = "During Paugnat ug Pasundayag \nCCJ be like: "
 ccisCtasText = "CTAS and CCIS: "
 
 # make new canva for putting the image of the winner of pageant
