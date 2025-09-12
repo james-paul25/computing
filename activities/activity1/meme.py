@@ -4,7 +4,7 @@
 from PIL import Image, ImageDraw, ImageFont
 
 # i will import platform for detecting OS
-# i use linux and some font are not available in linux
+# i use linux and some font are not available in windows default
 import platform
 
 # detect OS
