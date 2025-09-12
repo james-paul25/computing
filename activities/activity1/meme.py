@@ -1,5 +1,3 @@
-# this is a meme during the mr and ms intrams pageant where ccj win and ctas and ccis is on bottom
-
 # importing library that will use from PIL
 from PIL import Image, ImageDraw, ImageFont
 
