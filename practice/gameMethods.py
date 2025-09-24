@@ -3,8 +3,6 @@ from pygame.locals import *
 import sys
 
 # this a file for game methods like moving objects, collision detection, etc.
-# you can add any methods you want here and call them in game.py
-
 
 def moveCircle(keys, circle_x, circle_y):
     # W -> up
