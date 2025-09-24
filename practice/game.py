@@ -50,7 +50,6 @@ while play:
         #to check if the user wants to quit
         if event.type == QUIT:
             play = False    
-            pygame.quit()
             sys.exit()
 
 
