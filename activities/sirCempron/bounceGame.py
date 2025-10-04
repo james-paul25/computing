@@ -58,4 +58,7 @@ while running:
             running = False
      
     pygame.display.flip()
+    
+pygame.quit()
+sys.exit()
            
