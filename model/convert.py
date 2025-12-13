@@ -2,6 +2,7 @@ import tensorflow as tf
 
 pb_path = "MobileFaceNet_9925_9680.pb"
 
+
 input_arrays = ["input"]        # change only if your Placeholder name differs
 output_arrays = ["embeddings"]
 input_shape = {"input": [1, 112, 112, 3]}
