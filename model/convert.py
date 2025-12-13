@@ -2,20 +2,20 @@ import tensorflow as tf
 
 pb_path = "MobileFaceNet_9925_9680.pb"
 
-# IMPORTANT — update these after inspecting tensors
-input_arrays = ["input"]
+input_arrays = ["input"]        # change only if your Placeholder name differs
 output_arrays = ["embeddings"]
-input_shape = {"input": [1,112,112,3]}
+input_shape = {"input": [1, 112, 112, 3]}
 
-converter = tf.lite.TFLiteConverter.from_frozen_graph(
+converter = tf.compat.v1.lite.TFLiteConverter.from_frozen_graph(
     pb_path,
     input_arrays=input_arrays,
     output_arrays=output_arrays,
     input_shapes=input_shape
 )
 
-converter.allow_custom_ops = True
-converter.post_training_quantize = False  # keep float32 for accuracy
+# Recommended settings
+converter.optimizations = []    # keep full float32 accuracy
+converter.allow_custom_ops = False
 
 tflite_model = converter.convert()
 
