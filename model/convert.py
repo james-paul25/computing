@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-pb_path = "MobileFaceNet_9925_9680.pb"
+pb_path = "emotion_detection_model.h5"
 
 
 input_arrays = ["input"]        # change only if your Placeholder name differs
@@ -20,7 +20,7 @@ converter.allow_custom_ops = False
 
 tflite_model = converter.convert()
 
-with open("mobilefacenet_9925.tflite", "wb") as f:
+with open("emotion_model.tflite", "wb") as f:
     f.write(tflite_model)
 
-print("DONE! Saved as mobilefacenet_9925.tflite")
+print("DONE! Saved as emotion_model.tflite")
